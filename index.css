@@ -1,0 +1,93 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(197, 16, 16);
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#jugador-1{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid rgb(197, 16, 16) ;
+    border-radius: 50%;
+    
+}
+
+
+#jugador-2 {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid rgb(197, 16, 16);
+    border-radius: 50%;
+}
+
+h2 {
+    font-weight: bold;
+    color: rgb(197, 16, 16);
+
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .btn  { 
+    margin: 5px;
+    padding: 10px;
+    border: transparent;
+    background-color:rgb(197, 16, 16) ;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+
+ }
+
+
+
+h3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.totales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#total1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#total2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
